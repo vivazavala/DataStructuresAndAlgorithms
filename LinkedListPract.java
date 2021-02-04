@@ -139,7 +139,6 @@ public class LinkedListPract {
 		System.out.print("Your updated list is: ");
 		printList(list.head);
 		System.out.println("\nNow we will sort your list.");
-		//mergeSort(list.head);
 		printList(mergeSort(list.head));
 
 	}
